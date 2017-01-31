@@ -1,0 +1,12 @@
+{
+  "name": "maven-wrapped-webapp",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Simple maven wrapped webapp that runs external tools like npm script/gulp for building.",
+  "scripts": {
+    "build": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
