@@ -8,6 +8,10 @@
   <includeBaseDirectory>false</includeBaseDirectory>
   <fileSets>
     <fileSet>
+      <directory>${project.basedir}/src/main/webapp</directory>
+      <outputDirectory></outputDirectory>
+    </fileSet>
+    <fileSet>
       <directory>${project.build.directory}/generated-webapp</directory>
       <outputDirectory></outputDirectory>
     </fileSet>
